@@ -1,0 +1,5 @@
+#!/bin/bash
+
+apt install --reinstall grub-efi-amd64 linux-generic linux-headers-generic
+update-initramfs -c -k all
+sudo update-grub
