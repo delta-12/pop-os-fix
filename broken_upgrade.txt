@@ -1,0 +1,5 @@
+If pop-upgrade release upgrade breaks Pop OS...
+
+purge system76 pop ppa
+remove all related ppa files from sources.list.d directory
+delete ppa entry in sources.list
